@@ -17,13 +17,14 @@ static struct {
 } wifi_list[] __attribute__((unused)) = {
     {.ssid = "OTA", .password = "12345678"},
     {.ssid = "DAP", .password = "12345678"},
+    {.ssid = "jivin-wifi", .password = "qweasdzxc"},
     // Add your WAP like this:
     // {.ssid = "your ssid", .password = "your password"},
 };
 
 #define WIFI_LIST_SIZE (sizeof(wifi_list) / sizeof(wifi_list[0]))
 
-#define USE_MDNS       1
+#define USE_MDNS       0
 // Use the address "dap.local" to access the device
 #define MDNS_HOSTNAME "dap"
 #define MDNS_INSTANCE "DAP mDNS"

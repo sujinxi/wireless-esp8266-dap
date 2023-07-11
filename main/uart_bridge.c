@@ -71,7 +71,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 #endif
 
 #define EVENTS_QUEUE_SIZE 10
-#define UART_BUF_SIZE     512
+#define UART_BUF_SIZE     128
 
 #ifdef CALLBACK_DEBUG
 #define debug(s, ...) os_printf("%s: " s "\n", "Cb:", ##__VA_ARGS__)

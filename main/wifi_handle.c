@@ -156,6 +156,5 @@ void wifi_init(void) {
     ssid_change();
     ESP_ERROR_CHECK(esp_wifi_start());
 
-
     wait_for_ip();
 }
